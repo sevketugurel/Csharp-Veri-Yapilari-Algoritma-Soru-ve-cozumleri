@@ -35,6 +35,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bensersiz sayıları linked
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2 boyutlu matrisde en çok 1 içeren bölgeyi bulan algoritma", "2 boyutlu matrisde en çok 1 içeren bölgeyi bulan algoritma\2 boyutlu matrisde en çok 1 içeren bölgeyi bulan algoritma.csproj", "{1517B1EE-6FBF-463A-BC81-1F9EF5595521}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListte en buyuk ikinci elemanı bulmak", "LinkedListte en buyuk ikinci elemanı bulmak\LinkedListte en buyuk ikinci elemanı bulmak.csproj", "{5E0B0EBE-F2DC-49F2-964F-8B7C295134D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "birbiri içinde 2 adet veri içeren linked list sorgulaması", "birbiri içinde 2 adet veri içeren linked list sorgulaması\birbiri içinde 2 adet veri içeren linked list sorgulaması.csproj", "{142CFF14-260D-45C4-BB17-4BFA7DCF5F40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bir dosya dizininin tüm alt dizinlerini stack ile elde etmek", "bir dosya dizininin tüm alt dizinlerini stack ile elde etmek\bir dosya dizininin tüm alt dizinlerini stack ile elde etmek.csproj", "{AB7ED3E6-2958-457F-B642-E22B00458DC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iki diziyi indisler yardımıyla bagli listeye cevirme", "iki diziyi indisler yardımıyla bagli listeye cevirme\iki diziyi indisler yardımıyla bagli listeye cevirme.csproj", "{7CFB5C94-B54C-475C-919A-87F7D9A78516}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "döngüsüz 5 boyutlu dizide en büyük bulma", "döngüsüz 5 boyutlu dizide en büyük bulma\döngüsüz 5 boyutlu dizide en büyük bulma.csproj", "{B3EA4B01-93F4-4B55-9D71-1AFD408573AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +115,26 @@ Global
 		{1517B1EE-6FBF-463A-BC81-1F9EF5595521}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1517B1EE-6FBF-463A-BC81-1F9EF5595521}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1517B1EE-6FBF-463A-BC81-1F9EF5595521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E0B0EBE-F2DC-49F2-964F-8B7C295134D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E0B0EBE-F2DC-49F2-964F-8B7C295134D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E0B0EBE-F2DC-49F2-964F-8B7C295134D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E0B0EBE-F2DC-49F2-964F-8B7C295134D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{142CFF14-260D-45C4-BB17-4BFA7DCF5F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{142CFF14-260D-45C4-BB17-4BFA7DCF5F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{142CFF14-260D-45C4-BB17-4BFA7DCF5F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{142CFF14-260D-45C4-BB17-4BFA7DCF5F40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB7ED3E6-2958-457F-B642-E22B00458DC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB7ED3E6-2958-457F-B642-E22B00458DC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB7ED3E6-2958-457F-B642-E22B00458DC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB7ED3E6-2958-457F-B642-E22B00458DC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CFB5C94-B54C-475C-919A-87F7D9A78516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CFB5C94-B54C-475C-919A-87F7D9A78516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CFB5C94-B54C-475C-919A-87F7D9A78516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CFB5C94-B54C-475C-919A-87F7D9A78516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3EA4B01-93F4-4B55-9D71-1AFD408573AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3EA4B01-93F4-4B55-9D71-1AFD408573AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3EA4B01-93F4-4B55-9D71-1AFD408573AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3EA4B01-93F4-4B55-9D71-1AFD408573AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
