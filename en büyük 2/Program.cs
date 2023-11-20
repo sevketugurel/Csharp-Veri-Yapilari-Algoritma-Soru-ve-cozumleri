@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace en_büyük_2
 {
@@ -20,7 +21,7 @@ namespace en_büyük_2
             Console.ReadLine();
         }
 
-        public static  int Yaz(int [,] x, int indis,)
+        public static  int Yaz(int [,] x, int indis)
         {
             if (indis >= 9) { return 0; }
             int a, b;

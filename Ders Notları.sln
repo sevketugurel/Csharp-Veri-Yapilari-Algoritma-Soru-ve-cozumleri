@@ -45,6 +45,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iki diziyi indisler yardım
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "döngüsüz 5 boyutlu dizide en büyük bulma", "döngüsüz 5 boyutlu dizide en büyük bulma\döngüsüz 5 boyutlu dizide en büyük bulma.csproj", "{B3EA4B01-93F4-4B55-9D71-1AFD408573AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack ile parantez kontrolu", "Stack ile parantez kontrolu\Stack ile parantez kontrolu.csproj", "{5AA32E1A-216B-4055-ABD9-0F959A9F48B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "postfix_prefix", "herhangi parantez iceren strigi stackla icindeki parantezleri düzenleme\postfix_prefix.csproj", "{4D1FA8EF-F749-4895-AAB6-EC01DB471C53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cikti sorusu", "cikti sorusu\cikti sorusu.csproj", "{50AA2CDE-994D-42DE-A87C-4C618A937DAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bir stringte sıralı şekilde gelmesini istediimiz harflerin kontrolü", "bir stringte sıralı şekilde gelmesini istediimiz harflerin kontrolü\bir stringte sıralı şekilde gelmesini istediimiz harflerin kontrolü.csproj", "{7977D932-38E5-4992-A645-B2F772116292}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "çok boyutlu bir dizide x. en büyük elemanı bulan recursive yapı", "çok boyutlu bir dizide x. en büyük elemanı bulan recursive yapı\çok boyutlu bir dizide x. en büyük elemanı bulan recursive yapı.csproj", "{A26F58E7-2F74-4C68-8AC7-4B7FCEEE1DC7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +145,26 @@ Global
 		{B3EA4B01-93F4-4B55-9D71-1AFD408573AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3EA4B01-93F4-4B55-9D71-1AFD408573AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3EA4B01-93F4-4B55-9D71-1AFD408573AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AA32E1A-216B-4055-ABD9-0F959A9F48B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA32E1A-216B-4055-ABD9-0F959A9F48B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA32E1A-216B-4055-ABD9-0F959A9F48B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA32E1A-216B-4055-ABD9-0F959A9F48B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D1FA8EF-F749-4895-AAB6-EC01DB471C53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D1FA8EF-F749-4895-AAB6-EC01DB471C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D1FA8EF-F749-4895-AAB6-EC01DB471C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D1FA8EF-F749-4895-AAB6-EC01DB471C53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50AA2CDE-994D-42DE-A87C-4C618A937DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50AA2CDE-994D-42DE-A87C-4C618A937DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50AA2CDE-994D-42DE-A87C-4C618A937DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50AA2CDE-994D-42DE-A87C-4C618A937DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7977D932-38E5-4992-A645-B2F772116292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7977D932-38E5-4992-A645-B2F772116292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7977D932-38E5-4992-A645-B2F772116292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7977D932-38E5-4992-A645-B2F772116292}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A26F58E7-2F74-4C68-8AC7-4B7FCEEE1DC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A26F58E7-2F74-4C68-8AC7-4B7FCEEE1DC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A26F58E7-2F74-4C68-8AC7-4B7FCEEE1DC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A26F58E7-2F74-4C68-8AC7-4B7FCEEE1DC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

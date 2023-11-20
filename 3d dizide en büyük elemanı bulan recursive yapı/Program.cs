@@ -12,28 +12,28 @@ namespace _3d_dizide_en_büyük_elemanı_bulan_recursive_yapı
         {
             int[,,] x = new int[5, 10, 20];
             int l = 1;
+
             for (int i = 0; i < 5; i++)
             {
                 for (int j = 0; j < 10; j++)
                 {
                     for (int k = 0; k < 20; k++)
                     {
-                        x[i, j, k] = l;
+                        x[i, j, k] = 1;
                         l++;
                     }
                 }
             }
-            x[3, 4, 5] = 111111111;
-            int deger = EnBüyükElemanıBulmak(x);
-            Console.WriteLine(deger);
+
+            x[3, 4, 5] = 1123123;
+            int enBuyukDeger = EnBüyükElemanıBulmak(x,0,0,0,x[0,0,0]);
+            Console.WriteLine(enBuyukDeger);
             Console.ReadKey();
 
         }
 
-        public static int EnBüyükElemanıBulmak(int[,,] dizi, int a = 0, int b = 0, int c = 0)
+        public static int EnBüyükElemanıBulmak(int[,,] array, int a, int b, int c, int enbüyük)
         {
-            int enbüyük = dizi[a, b, c];
-
             if (c >= 20)
             {
                 c = 0;
@@ -48,14 +48,14 @@ namespace _3d_dizide_en_büyük_elemanı_bulan_recursive_yapı
                 }
             }
 
-            if (enbüyük < dizi[a, b, c])
+            if (enbüyük < array[a, b, c])
             {
-                enbüyük = dizi[a, b, c];
+                enbüyük = array[a, b, c];
             }
-
-            c++; // Move inside the if statement
-            return EnBüyükElemanıBulmak(dizi, a, b, c); // Pass updated values to the recursive call
+            c++;
+            return EnBüyükElemanıBulmak(array, a, b, c, enbüyük);
         }
+
 
 
     }

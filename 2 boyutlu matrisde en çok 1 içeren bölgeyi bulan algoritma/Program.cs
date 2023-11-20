@@ -53,6 +53,7 @@ namespace _2_boyutlu_matrisde_en_çok_1_içeren_bölgeyi_bulan_algoritma
                             // Ziyaret edilen eleman 2 olarak işaretleniyor.
                             matrix[x, y] = 2;
 
+
                             // Elemanın çevresindeki diğer 1'leri kontrol etmek için iki iç içe döngü başlatılıyor.
                             // Nasıl geziyoruz ??
                             for (int k = x - 1; k <= x + 1; k++)

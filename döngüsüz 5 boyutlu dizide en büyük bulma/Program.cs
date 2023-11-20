@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -37,6 +38,9 @@ namespace döngüsüz_5_boyutlu_dizide_en_büyük_bulma
             a = index / 840;
             b = (index - a * 840) / 210;
             c = (index - b * 210 - a * 840) / 42;
+            int c2 = index % 30;
+            Console.WriteLine(c);
+            Console.WriteLine(c2);
             d = (index - c * 42 - b * 210 - a * 840) / 7;
             e = index % 7;
 
