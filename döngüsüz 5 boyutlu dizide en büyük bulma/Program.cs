@@ -12,6 +12,7 @@ namespace döngüsüz_5_boyutlu_dizide_en_büyük_bulma
         static void Main(string[] args)
         {
             int[,,,,] dizi = new int[3,4,5,6,7];
+
             for (int i = 0; i < 3; i++)
             {
                 for (int j = 0; j < 4; j++)
@@ -32,27 +33,23 @@ namespace döngüsüz_5_boyutlu_dizide_en_büyük_bulma
             Console.WriteLine(FindMax(dizi, 0, dizi[0,0,0,0,0]));
             Console.ReadKey();  
         }
-        public static int FindMax(int[,,,,] array, int index, int max)
+        public static int FindMax(int[,,,,] array, int indis, int max)
         {
             int a, b, c, d, e;
-            a = index / 840;
-            b = (index - a * 840) / 210;
-            c = (index - b * 210 - a * 840) / 42;
-            int c2 = index % 30;
-            Console.WriteLine(c);
-            Console.WriteLine(c2);
-            d = (index - c * 42 - b * 210 - a * 840) / 7;
-            e = index % 7;
+            a = indis / 840;
+            b = (indis - a * 840) / 210;
+            c = (indis - b * 210 - a * 840) / 42;
+            d = (indis - c * 42 - b * 210 - a * 840) / 7;
+            e = indis % 7;
 
-            if (a>=3 )
-                return max;
+            if (indis>=840*3) return max;
 
             if (array[a, b, c, d, e] > max)
             {
                 max = array[a, b, c, d, e];
             }
 
-            return FindMax(array, index + 1, max);
+            return FindMax(array, indis + 1, max);
         }
 
     }

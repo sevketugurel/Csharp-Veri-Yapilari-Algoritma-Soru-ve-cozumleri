@@ -76,7 +76,7 @@ namespace CiftLinkedea_eleman_ekleme_kısa_çözüm
 
                 sayi /=10;
             }
-            while (head.next != null)
+            while (head != null)
             {
                 Console.WriteLine(head.data);
                 head = head.next;

@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bir stringte sıralı şeki
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "çok boyutlu bir dizide x. en büyük elemanı bulan recursive yapı", "çok boyutlu bir dizide x. en büyük elemanı bulan recursive yapı\çok boyutlu bir dizide x. en büyük elemanı bulan recursive yapı.csproj", "{A26F58E7-2F74-4C68-8AC7-4B7FCEEE1DC7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "postfix_to_infix", "postfix_to_infix\postfix_to_infix.csproj", "{1788E439-9525-4288-9628-2D89C717086E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{A26F58E7-2F74-4C68-8AC7-4B7FCEEE1DC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A26F58E7-2F74-4C68-8AC7-4B7FCEEE1DC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A26F58E7-2F74-4C68-8AC7-4B7FCEEE1DC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1788E439-9525-4288-9628-2D89C717086E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1788E439-9525-4288-9628-2D89C717086E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1788E439-9525-4288-9628-2D89C717086E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1788E439-9525-4288-9628-2D89C717086E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

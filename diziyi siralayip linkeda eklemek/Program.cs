@@ -11,11 +11,11 @@ namespace diziyi_siralayip_linkeda_eklemek
         static void Main(string[] args)
         {
 
-            int[] dizi = new int[] {12,3,55, 90 };
+            int[] dizi = {12,3,55, 90 };
             dizi = BubbleSort(dizi);
 
             linked head = new linked();
-            linked x= arrayToLinked(dizi,head);
+            linked x= arrayToLinked(dizi,head,0);
 
             while(x.next != null)
             {
@@ -49,7 +49,7 @@ namespace diziyi_siralayip_linkeda_eklemek
             public linked next;
         }
         //linkeda sondan eklemeye başladım burada
-        public static linked arrayToLinked(int[] nums,linked head,int i=0)
+        public static linked arrayToLinked(int[] nums,linked head,int i)
         {
             if (i > nums.Length-1) return head;
 

@@ -53,6 +53,9 @@ namespace çiftli_linked_list_çalışma
         {
             blockt head = null;
             blockt tail = null;
+
+            
+
             for (int i = 0; i < 7; i++)
             {
                 blockt bt = new blockt();
@@ -68,7 +71,7 @@ namespace çiftli_linked_list_çalışma
                 }
                 tail = bt;
             }
-
+           
             rec(head);
 
             blockt current = head;
