@@ -57,6 +57,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "çok boyutlu bir dizide x. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "postfix_to_infix", "postfix_to_infix\postfix_to_infix.csproj", "{1788E439-9525-4288-9628-2D89C717086E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ders Notları Finale Doğru", "Ders Notları Finale Doğru", "{C72515A2-CC04-49F7-8819-FFBC3C3F80F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "postfix_infix", "postfix_infix\postfix_infix.csproj", "{4153904B-F9CE-4769-B4F2-C46E4A048206}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Number of Students Unable to Eat Lunch", "Number of Students Unable to Eat Lunch\Number of Students Unable to Eat Lunch.csproj", "{94B2E0E7-1237-4099-B758-220359118721}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree", "Tree\Tree.csproj", "{D5549ABD-6850-4B63-81AD-8002179B1021}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,9 +179,26 @@ Global
 		{1788E439-9525-4288-9628-2D89C717086E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1788E439-9525-4288-9628-2D89C717086E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1788E439-9525-4288-9628-2D89C717086E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4153904B-F9CE-4769-B4F2-C46E4A048206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4153904B-F9CE-4769-B4F2-C46E4A048206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4153904B-F9CE-4769-B4F2-C46E4A048206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4153904B-F9CE-4769-B4F2-C46E4A048206}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94B2E0E7-1237-4099-B758-220359118721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94B2E0E7-1237-4099-B758-220359118721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94B2E0E7-1237-4099-B758-220359118721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94B2E0E7-1237-4099-B758-220359118721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5549ABD-6850-4B63-81AD-8002179B1021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5549ABD-6850-4B63-81AD-8002179B1021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5549ABD-6850-4B63-81AD-8002179B1021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5549ABD-6850-4B63-81AD-8002179B1021}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4153904B-F9CE-4769-B4F2-C46E4A048206} = {C72515A2-CC04-49F7-8819-FFBC3C3F80F3}
+		{94B2E0E7-1237-4099-B758-220359118721} = {C72515A2-CC04-49F7-8819-FFBC3C3F80F3}
+		{D5549ABD-6850-4B63-81AD-8002179B1021} = {C72515A2-CC04-49F7-8819-FFBC3C3F80F3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {012B2E98-AB95-4F73-9257-67745048FBE0}
